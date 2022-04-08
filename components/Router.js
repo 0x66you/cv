@@ -22,9 +22,8 @@ import legos from './subcomponents/Projects/Legos.js'
 import stocks from './subcomponents/Projects/Stocks.js'
 const routes = [
     {
-        path:'/home/recommondations',
+        path:'/cv',
         name:'home',
-        alias:['/cv','*','/'],
         component:home,
         children:[
             {
