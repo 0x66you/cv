@@ -24,7 +24,7 @@ const routes = [
     {
         path:'/home/recommondations',
         name:'home',
-        alias:['/home','*','/'],
+        alias:['/cv','*','/'],
         component:home,
         children:[
             {
