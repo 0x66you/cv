@@ -24,7 +24,7 @@ export default {
                         <router-link tag="a" to="/home/mvc"><i class="fas fa-network-wired verticalMenuIcons"></i>庫存清點 MVC</router-link>
                         <p class="sidebarwords" style="margin-top:15px;">Frontend</p>
                         <router-link tag="a" to="/home/ecommerce"><i class="fas fa-shopping-cart verticalMenuIcons"></i>E-Commerce</router-link>
-                        <router-link tag="a" to="/home/cv"><i class="fas fa-laptop-house verticalMenuIcons"></i>CV Website</router-link>
+                        <router-link tag="a" to="/home/projectcv"><i class="fas fa-laptop-house verticalMenuIcons"></i>CV Website</router-link>
                         <p class="sidebarwords" style="margin-top:15px;">Backend</p>
                         <router-link tag="a" to="/home/tinder"><i class="fas fa-fingerprint verticalMenuIcons"></i>Tinder swipe</router-link>
                         <router-link tag="a" to="/home/nodeapi"><i class="fas fa-server verticalMenuIcons"></i>Node API</router-link>

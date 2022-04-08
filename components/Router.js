@@ -73,7 +73,7 @@ const routes = [
                 path:'ecommerce',component:ecommerce
             },
             {
-                path:"cv",component:cv
+                path:"projectcv",component:cv
             },
             {
                 path:"tinder",component:tinder
