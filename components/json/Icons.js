@@ -1,0 +1,38 @@
+const icons = [
+    {
+        webp:"img/python.webp",
+        png:"img/python.png",
+        width:"32",
+    },
+    {
+        webp:"img/vue.webp",
+        png:"img/vue.png",
+        width:"32",
+    },
+    {
+        webp:"img/node.webp",
+        png:"img/node.png",
+        width:"32",
+    },
+    {
+        webp:"img/php.webp",
+        png:"img/php.png",
+        width:"45",
+    },
+    {
+        webp:"img/js.webp",
+        png:"img/js.png",
+        width:"32",
+    },
+    {
+        webp:"img/java.webp",
+        png:"img/java.png",
+        width:"32",
+    },
+    {
+        webp:"img/vs.webp",
+        png:"img/vs.png",
+        width:"32",
+    },
+]
+export default icons;

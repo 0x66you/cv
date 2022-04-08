@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>葉駿成-智聯</title>
+    <!-- bootstrap css -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Noto+Serif+TC:wght@600&family=Poppins&display=swap"
+        rel="stylesheet">
+    <!-- font awesome 5 -->
+    <script src="https://kit.fontawesome.com/e27bed0f42.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div id="app"></div>
+    <template id="appUI">
+        <div style="position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        flex-wrap: wrap;"
+        class="flextrio">
+            <div style="width:400px;display:inline-block;">
+                <intro></intro>
+            </div>
+            <div class="flextrio" style="width:890px;display:inline-block;">
+                <div>
+                    <router-view></router-view>   
+                </div>        
+            </div>
+        </div>
+    </template>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="vue.js"></script>
+    <script src="vuex.js"></script>
+    <script src="vue-router.js"></script>
+    <script src="main.js" type="module"></script>
+    <script src="gsap.min.js"></script>
+</body>
+
+</html>
