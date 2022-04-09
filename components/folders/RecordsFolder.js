@@ -15,11 +15,11 @@ export default {
                 <div class="sidebar">
                     <div class="vertical-menu">
                         <p class="sidebarwords">Pinned</p>
-                        <router-link class="active" tag="a" to="/home/recread"><i class="far fa-folder-open" style="color:#0070fe;margin-right:10px;"></i>README</router-link>
+                        <router-link class="active" tag="a" to="/cv/recread"><i class="far fa-folder-open" style="color:#0070fe;margin-right:10px;"></i>README</router-link>
                         <p class="sidebarwords" style="margin-top:15px;">Libraries</p>
-                        <router-link tag="a" to="/home/curriculum"><i class="far fa-calendar-check" style="color:#0070fe;margin-right:10px;"></i>Curriculum</router-link>
-                        <router-link tag="a" to="/home/issues"><i class="far fa-dot-circle" style="color:#0070fe;margin-right:10px;"></i>Issues</router-link>
-                        <router-link tag="a" to="/home/blog"><i class="fab fa-blogger" style="color:#0070fe;margin-right:10px;"></i>Ml & Dl Blog</router-link>
+                        <router-link tag="a" to="/cv/curriculum"><i class="far fa-calendar-check" style="color:#0070fe;margin-right:10px;"></i>Curriculum</router-link>
+                        <router-link tag="a" to="/cv/issues"><i class="far fa-dot-circle" style="color:#0070fe;margin-right:10px;"></i>Issues</router-link>
+                        <router-link tag="a" to="/cv/blog"><i class="fab fa-blogger" style="color:#0070fe;margin-right:10px;"></i>Ml & Dl Blog</router-link>
                     </div>
                 </div>
                 <router-view class="content"></router-view>
