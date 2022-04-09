@@ -81,10 +81,10 @@ export default {
         <projectfolder></projectfolder>
         <recordsfolder></recordsfolder>
     </div>
-    <div style="display:none;">
+
         <img href="img/f1.gif">
         <img href="img/f1.webp">
-    </div>
+
 </div>
     `
 }
