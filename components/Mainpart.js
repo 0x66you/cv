@@ -65,7 +65,7 @@ export default {
         });
     },
     template:`
-<div>    
+<div>   
     <div class="card Box flextrio" style="width:890px;">
         <img class="stopdrag" src="img/windows.jpeg" style="width:100%;border-radius: 6px;">
         <div v-for="folder in this.$store.getters.getFolders" 
@@ -80,6 +80,10 @@ export default {
         <homefolder></homefolder>
         <projectfolder></projectfolder>
         <recordsfolder></recordsfolder>
+    </div>
+    <div style="display:none;">
+        <img href="img/f1.gif">
+        <img href="img/f1.webp">
     </div>
 </div>
     `
