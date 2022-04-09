@@ -10,7 +10,7 @@ export default {
                     Python工程師
                 </span>
                 <span class="serifFont600 Label Label--purple">
-                    後端工程師
+                    全端工程師
                 </span>
             </div>
             <div>

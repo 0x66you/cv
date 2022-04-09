@@ -48,6 +48,14 @@
     <script src="vue-router.js"></script>
     <script src="main.js" type="module"></script>
     <script src="gsap.min.js"></script>
+    <script>
+        var imgs = [];
+        var imgUrls = ["img/f1.gif",'img/f1.webp'];
+        for (i=0;i<imgUrls.length;i++) {
+            imgs.push(new Image());
+            imgs[i].src = imgUrls[i]
+        }
+    </script>
 </body>
 
 </html>
